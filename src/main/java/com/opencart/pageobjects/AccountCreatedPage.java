@@ -1,4 +1,4 @@
-package org.opencart.pageobjects;
+package com.opencart.pageobjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

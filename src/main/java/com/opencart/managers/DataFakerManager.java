@@ -1,4 +1,4 @@
-package org.opencart.managers;
+package com.opencart.managers;
 
 import com.github.javafaker.Faker;
 

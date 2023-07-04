@@ -1,10 +1,10 @@
-package org.opencart;
+package com.opencart;
 
-import org.opencart.managers.DataFakerManager;
-import org.opencart.managers.DriverManager;
-import org.opencart.pageobjects.AccountCreatedPage;
-import org.opencart.pageobjects.HomePage;
-import org.opencart.pageobjects.RegisterPage;
+import com.opencart.managers.DataFakerManager;
+import com.opencart.managers.DriverManager;
+import com.opencart.pageobjects.AccountCreatedPage;
+import com.opencart.pageobjects.HomePage;
+import com.opencart.pageobjects.RegisterPage;
 import org.openqa.selenium.*;
 
 public class TestRunner {
