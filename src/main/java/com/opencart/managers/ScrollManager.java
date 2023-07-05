@@ -1,4 +1,4 @@
-package org.opencart.managers;
+package com.opencart.managers;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

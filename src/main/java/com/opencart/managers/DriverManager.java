@@ -1,4 +1,4 @@
-package org.opencart.managers;
+package com.opencart.managers;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverManager {
     private static String webDriverType = "Chrome";
-    private static org.opencart.managers.DriverManager instance;
+    private static DriverManager instance;
     private WebDriver driver;
 
     private DriverManager() {
@@ -31,16 +31,16 @@ public class DriverManager {
         }
     }
 
-    public static org.opencart.managers.DriverManager getInstance() {
+    public static DriverManager getInstance() {
         if (instance == null) {
-            instance = new org.opencart.managers.DriverManager();
+            instance = new DriverManager();
         }
         return instance;
     }
 
     public WebDriver getDriver() {
         if (driver == null) {
-            org.opencart.managers.DriverManager.getInstance();
+            DriverManager.getInstance();
         }
         return driver;
     }

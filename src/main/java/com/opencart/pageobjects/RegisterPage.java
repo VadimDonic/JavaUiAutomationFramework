@@ -1,8 +1,7 @@
-package org.opencart.pageobjects;
+package com.opencart.pageobjects;
 
-import org.opencart.managers.DataFakerManager;
-import org.opencart.managers.DriverManager;
-import org.opencart.managers.ScrollManager;
+import com.opencart.managers.DriverManager;
+import com.opencart.managers.ScrollManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
